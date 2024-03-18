@@ -2,7 +2,7 @@
 
 http://t.me/meteomaster_bot
 
-This repository hosts the source code for WeatherBot, a Telegram bot that provides current weather information for cities worldwide. This bot uses the OpenWeatherMap API to fetch real-time weather data.
+This repository hosts the source code for Meteo Master, a Telegram bot that provides current weather information for cities worldwide. This bot uses the OpenWeatherMap API to fetch real-time weather data.
 
 ## How to Use
 
@@ -45,7 +45,7 @@ This repository hosts the source code for WeatherBot, a Telegram bot that provid
 
 If you encounter any issues or have questions regarding WeatherBot, please don't hesitate to reach out to me for assistance.
 
-Thank you for using WeatherBot! Stay informed about the weather wherever you are. 
+Thank you for using Meteo Master! Stay informed about the weather wherever you are. 
 
 http://t.me/meteomaster_bot
 
