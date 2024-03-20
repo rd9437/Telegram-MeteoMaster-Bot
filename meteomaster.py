@@ -42,7 +42,7 @@ async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(about_text)
 
 def get_weather(city: str) -> str:
-    api_key = 'API KEY'
+    api_key = 'API_KEY'
     base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(base_url)
     data = response.json()
