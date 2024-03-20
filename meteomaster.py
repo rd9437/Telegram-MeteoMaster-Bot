@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import requests
 
-TOKEN: final = '7025013975:AAFOEgcs5IXIoIgavaz_s4m7qSnZ8tkW_1M'
+TOKEN: final = 'BOT_TOKEN'
 BOT_USERNAME: final = '@meteomaster_bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -42,7 +42,7 @@ async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(about_text)
 
 def get_weather(city: str) -> str:
-    api_key = 'fe97c61377545f40e42b991521c6e97f'
+    api_key = 'API KEY'
     base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(base_url)
     data = response.json()
