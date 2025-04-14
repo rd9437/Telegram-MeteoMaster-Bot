@@ -1,6 +1,6 @@
 # Telegram-MeteoMaster-Bot
 
-http://t.me/meteomaster_bot
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](http://t.me/meteomaster_bot)
 
 This repository hosts the source code for Meteo Master, a Telegram bot that provides current weather information for cities worldwide. This bot uses the OpenWeatherMap API to fetch real-time weather data.
 
